@@ -25,4 +25,4 @@ Input datapoint: 9 --> [6,9]
 
 Input datapoint: 10 --> [1,14]
 
-getLinearFit() slope(-1.10642) intercept(14.0811)
+getLinearFit() version(V1.0.0) slope(-1.10642) intercept(14.0811)

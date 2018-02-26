@@ -2,6 +2,7 @@
 #include <vector>
 
 using namespace std;
+std::string versionString = "V1.0.0";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 void getLinearFit(std::vector<double> &xData, std::vector<double> &yData, double &slope, double &intercept)
@@ -35,7 +36,7 @@ int main(int argc, char **argv)
     }
 
     getLinearFit(xData, yData, slope, intercept);
-    std::cout << "\ngetLinearFit() slope(" << slope <<") intercept(" << intercept << ")\n\n";
+    std::cout << "\ngetLinearFit() version(" << versionString << ") slope(" << slope <<") intercept(" << intercept << ")\n\n";
 
   } catch( const exception &e){
     cout << "Main Exception:" << endl;
